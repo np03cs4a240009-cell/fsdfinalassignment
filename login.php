@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 }
             } catch (PDOException $e) {
                 error_log("Login error: " . $e->getMessage());
-                $error = "An error occurred. Please try again later.";
+                $error = "An error occurred. Please try again later.".$e->getMessage();
             }
         }
     }

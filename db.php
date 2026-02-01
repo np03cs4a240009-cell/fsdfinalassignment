@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$db = "event_management";
-$user = "root"; // change for server
-$pass = ""; // change for server
+$db = "np03cs4a240009";
+$user = "np03cs4a240009"; 
+$pass = "e4UjoEudQY";
 
 
 try {
